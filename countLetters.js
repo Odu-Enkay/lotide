@@ -24,5 +24,5 @@ const countLetters = function(str) {
 }
 
 //Test Case
-countLetters("lighthouse in the house");
-countLetters("I believe it worked out!");
+let result = countLetters("lighthouse in the house");
+console.log(assertEqual(result['h'], 4));

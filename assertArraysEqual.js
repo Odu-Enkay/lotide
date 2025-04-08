@@ -1,4 +1,5 @@
 const eqArrays = require("../eqArrays");
+
 //function to assert is two items are equal
 const assertArraysEqual = function (actual, expected) {
   if (eqArrays(actual, expected)){
