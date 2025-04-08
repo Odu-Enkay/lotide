@@ -7,20 +7,20 @@ const assertEqual = function (actual, expected) {
   }
 };
 
-// define function countOnly
+// define function countOnly 
 const countOnly = function (allItems, itemsToCount) {
-  const results = {};
+  const results = {}; 
 
   for (const item of allItems) {
-    if (itemsToCount[item]) {  // Check if the item is meant to be counted
+    if (itemsToCount[item]) {  
       if (results[item]) {
-        results[item]++;  // Increment count if it already exists in results
+        results[item]++;  
       } else {
-        results[item] = 1;  // Initialize count if it doesn't exist
+        results[item] = 1;  
       }
     }
   }
-  return results;  // Return the results object after the loop finishes
+  return results;  
 };
 
 // test cases
