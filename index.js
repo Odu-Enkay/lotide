@@ -9,9 +9,10 @@ const countLetters = require('./countLetters');
 const countOnly = require('./countOnly');
 const eqArrays = require('./eqArrays');
 const eqObjects = require('./eqObjects');
-const findKey = require('./assertEqual');
+const findKey = require('./findKey');
 const findKeyByValue = require('./findKeyByValue');
-const letterPositions = require('./takeUntil');
+const letterPositions = require('./letterPositions');
+const takeUntil = require('./takeUntil');
 const without = require('./without');
 
 module.exports = {
