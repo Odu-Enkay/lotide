@@ -8,12 +8,13 @@ const assertEqual = function (actual, expected) {
   }
 };
 
+//decipher  .find method steps from Ai suggestions based on callback lecture 
 const findKey = function(object, callback) {
   return Object.keys(object).find(key => callback(object[key], key, object));
 }
 
 //Test cases
-console.log(assertEqual(findKey(
+assertEqual(findKey(
   {
     "Blue Hill": { stars: 1 },
     Akaleri: { stars: 3 },
@@ -23,5 +24,5 @@ console.log(assertEqual(findKey(
     Akelarre: { stars: 3 },
   },
   (x) => x.stars === 2
-), "noma")); // => "noma"
+), "bella"); // => "noma"
 
